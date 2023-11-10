@@ -17,6 +17,6 @@ function check_array(A) {
 
         return true;
     } else {
-        return false; //if not an array
+        return false; //if not an array or length is not equal to 9
     }
 }
