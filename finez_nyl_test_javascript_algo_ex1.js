@@ -17,7 +17,7 @@ to_verify[8] = "";
 function transfer_data() {
     to_verify = array_number;
     for(i = 0; i < to_verify.length; i++) {
-        to_verify[i] = to_verify[i].replace(/\s/g,''); //remove all spaces
+        to_verify[i] = to_verify[i].replace(/\s/g,'').split(''); //remove all spaces and turn into array of characters
         console.log(to_verify);
     }
 }
