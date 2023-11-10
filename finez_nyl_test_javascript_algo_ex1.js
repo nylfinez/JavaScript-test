@@ -1,6 +1,3 @@
-//Import array from javascript_test_je1
-import { array_number } from 'javascript_test_je1.js';
-
 //1 Create to_verify table with empty strings
 let to_verify = new Array(9);
 to_verify[0] = "";
@@ -18,8 +15,8 @@ function transfer_data() {
     to_verify = array_number;
     for(i = 0; i < to_verify.length; i++) {
         to_verify[i] = to_verify[i].replace(/\s/g,'').split(''); //remove all spaces and turn into array of characters
-        console.log(to_verify);
     }
+    console.log(to_verify); //Just to check
 }
 
 //3 Display in table

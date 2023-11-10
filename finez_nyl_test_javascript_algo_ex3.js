@@ -1,5 +1,3 @@
-import { check_array } from './finez_nyl_test_javascript_algo_ex2';
-
 //1 use check_array with the to_validate table
 function check_line(to_validate) {
     for (let i = 0; i < to_validate.length; i++) {
