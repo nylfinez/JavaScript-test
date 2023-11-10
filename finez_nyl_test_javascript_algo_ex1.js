@@ -1,14 +1,14 @@
-//1 Create to_verify table with empty strings
+//1 Create to_verify table
 let to_verify = new Array(9);
-to_verify[0] = "";
-to_verify[1] = "";
-to_verify[2] = "";
-to_verify[3] = "";
-to_verify[4] = "";
-to_verify[5] = "";
-to_verify[6] = "";
-to_verify[7] = "";
-to_verify[8] = "";
+to_verify[0] = [], [], [], [], [], [], [], [], [];
+to_verify[1] = [], [], [], [], [], [], [], [], [];
+to_verify[2] = [], [], [], [], [], [], [], [], [];
+to_verify[3] = [], [], [], [], [], [], [], [], [];
+to_verify[4] = [], [], [], [], [], [], [], [], [];
+to_verify[5] = [], [], [], [], [], [], [], [], [];
+to_verify[6] = [], [], [], [], [], [], [], [], [];
+to_verify[7] = [], [], [], [], [], [], [], [], [];
+to_verify[8] = [], [], [], [], [], [], [], [], [];
 
 //2 Read javascript_test_je1
 function transfer_data() {
